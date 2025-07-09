@@ -50,7 +50,7 @@ if "trajectories" not in st.session_state:
     st.session_state.trajectories = []  # (label, xs, ys, color, distance, y_text_pos, air)
 
 st.set_page_config(layout="wide")
-st.title("포물선 운동 시뮬레이터")
+st.title("포물선 운동 시물레이터")
 
 
 col_buttons, col_graph = st.columns([1, 4])
