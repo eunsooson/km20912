@@ -155,7 +155,7 @@ with col_graph:
         fig.update_layout(
             xaxis=dict(range=[0, 45], title="거리 (m)"),
             yaxis=dict(range=[0, 15], title="높이 (m)"),
-            title="포물선 운동 시뮬레이터",
+            title="포물선 운동 시물레이터",
             showlegend=False,
             transition=dict(duration=0),
             shapes=fixed_lines,
